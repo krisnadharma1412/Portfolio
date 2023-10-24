@@ -1,7 +1,7 @@
 <script>
     import Step from "./Step.svelte"
     let steps = [
-        {name: 'Maintenance Activity Monitoring Website', icon: 'fa-solid fa-chart-pie', href: 'https://docs.google.com/presentation/d/1ZR9aIMrB_0SM-H-J84-FW9n2B_3RbPAQkPH4wxVtIcU/edit#slide=id.g242288b2204_0_77'},
+        {name: 'Maintenance Activity Monitoring Website', icon: 'fa-solid fa-chart-pie'},
         {name: 'Metatah Event Invitation', icon: 'fa-solid fa-envelope'},
         {name: 'CLI MyAnimeList', icon: 'fa-solid fa-list'}
     ]
@@ -19,6 +19,8 @@
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
     ];
+
+    let btn_style = "mr-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:duration-200 after:bg-white hover:after:translate-x-full after:z-[-1] overflow-hidden";
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -38,6 +40,7 @@
             </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
+            <!-- svelte-ignore a11y-img-redundant-alt -->
             <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]" />
         </div>
     </section>
@@ -58,29 +61,47 @@
             class="mx-auto px-4 py-2 rounded-md border border-solid border-white
             flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hoverr:border-violet-700 duration-200"
         ><i class="fa-brands fa-github fa-bounce"></i>
-         <p>See my repository</p>
+         <p>See my GitHub</p>
         </a>
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-18">
             <Step step={steps[0]}>
-                <img src="images/maintenance.jpg" alt="">
                 <p>A project to monitoring the process of handling software errors at Polytron 
                     so that the system team can monitor the progress in handling case reports by the developer team and the system team itself more easily. 
                     Created with <strong class="text-violet-400">HTML, CSS, PHP, Laravel, Bootstrap, Javascript, JQuery, AJAX, and MySQL</strong>
                 </p>
+                <img src="images/maintenance.jpg" alt="maintenance project img">
+                <div class="flex-1 flex justify-between gap-4 items-center">
+                    <div class={btn_style}>
+                        <a href='https://docs.google.com/presentation/d/1ZR9aIMrB_0SM-H-J84-FW9n2B_3RbPAQkPH4wxVtIcU/edit#slide=id.g242348421c2_0_24' target="_blank" class="relative z-4"><i class="fa-regular fa-folder-open"></i> Documentation</a>
+                    </div>
+                </div>
             </Step>
             <Step step={steps[1]}>
-                <img src="images/metatah.png" alt="">
                 <p>This is an online invitation website i developed for my sister's and my metatah event.
                     Metatah/Mepandes ceremony in Bali is a significant cultural and religious event that signifies the transition from childhood to adolescence and the deeper commitment to the Balinese Hindu faith. 
                     Created with <strong class="text-violet-400">HTML, CSS, Bootstrap, and Javascript</strong>
                 </p>
+                <img src="images/metatah.png" alt="metatah invitation img">
+                <div class="flex-1 flex justify-between gap-4 items-center">
+                    <div class={btn_style}>
+                        <a href='https://github.com/krisnadharma1412/Metatah-Invitation' target="_blank" class="relative z-4"><i class="fa-solid fa-code"></i> Repository</a>
+                    </div>
+                    <div class={btn_style}>
+                        <a href='https://krisnadharma1412.github.io/Metatah-Invitation/' target="_blank" class="relative z-4"><i class="fa-solid fa-desktop"></i> Demo</a>
+                    </div>
+                </div>
             </Step>
             <Step step={steps[2]}>
-                <img src="images/myanimelist.png" alt="">
                 <p>CLI MyAnimeList is a program where you can create a list of anime that you want to watch just like in https://myanimelist.net/ website,
-                     and create a Tier List of anime from S tier to E tier in PNG image from your list.
+                    and create a Tier List of anime from S tier to E tier in PNG image from your list.
                     Created with <strong class="text-violet-400">Python, Jikan REST API, JSON</strong>
                 </p>
+                <img src="images/myanimelist.png" alt="cli myanimelist img">
+                <div class="flex-1 flex justify-between gap-4 items-center">
+                    <div class={btn_style}>
+                        <a href='https://github.com/krisnadharma1412/MyAnimeList-in-Python-CLI' target="_blank" class="relative z-4"><i class="fa-solid fa-code"></i> Repository</a>
+                    </div>
+                </div>
             </Step>
         </div>
     </section>
