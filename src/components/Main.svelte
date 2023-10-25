@@ -8,16 +8,19 @@
 
     let benefits = [
         {
-            metric: "10x",
             name: "a self taught developer",
             description:
-                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, cloud services and much much more. I am proactive in expanding my knowledge and am currently in the process of acquiring expertise in React and the Django framework. My eagerness to learn and adapt to new technologies reflects my commitment to staying current and enhancing my capabilities in the field.",
+                "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, cloud services and much much more.",
         },
         {
             name: "an excellent communicator",
             description:
                 "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
         },
+        {
+            name: "a tech enthusiast and lifelong learner",
+            description: "I am proactive in expanding my knowledge and am currently in the process of acquiring expertise in React and the Django framework. My eagerness to learn and adapt to new technologies reflects my commitment to staying current and enhancing my capabilities in the field.",
+        }
     ];
 
     let btn_style = "mr-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:h-0 after:right-full after:w-full after:h-full after:duration-200 after:bg-white hover:after:translate-x-full after:z-[-1] overflow-hidden";
@@ -118,7 +121,7 @@
             </h3>
         </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
-            I am a ...
+            I am ...
         </p>
         <div class="flex flex-col gap-20 w-full mx-auto max-w-[800px]">
             {#each benefits as benefit, index}
