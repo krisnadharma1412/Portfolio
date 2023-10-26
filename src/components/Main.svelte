@@ -140,6 +140,48 @@
                 </div>
             {/each}
         </div>
+        <h5 class={" text-2xl sm:text-3xl font-semibold text-center poppins "}>
+            My Tech <span class="text-violet-400">Skills</span>
+        </h5>
+        <div
+            class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full"
+        >
+            <table class="bg-white text-slate-700 rounded text-center">
+                <thead class={"border-b border-solid border-slate-200  "}>
+                    <tr class="">
+                        <th class="whitespace-nowrap p-2 px-4">Programming Language</th>
+                        <th class="whitespace-nowrap p-2 px-4">Framework & Libraries</th>
+                        <th class="whitespace-nowrap p-2 px-4">Database</th>
+                        <th class="bg-violet-700 text-white whitespace-nowrap p-4 px-8">Other Dev Tools</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Javascript</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Laravel</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">MySQL</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">GIT</td>
+                    </tr>
+                    <tr>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">PHP</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Bootstrap</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">SQL Server</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">AJAX</td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Python</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">TailwindCSS</td>
+                    </tr>
+                    <tr class="border-t border-solid border-slate-200">
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">JQuery</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
+            <p>Scroll to see more &rarr;</p>
+        </div>
         <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">
             I am currently open to <span class="text-violet-400">full time, and internship onsite/remote</span> job opportunities and freelance projects.
         </p>
