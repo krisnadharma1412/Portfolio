@@ -155,7 +155,9 @@
                 </thead>
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Javascript</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-solid fa-javascript"></i>
+                        </td>           
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Laravel</td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">MySQL</td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">GIT</td>
