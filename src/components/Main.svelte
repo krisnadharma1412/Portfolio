@@ -156,25 +156,32 @@
                 <tbody>
                     <tr class="border-b border-solid border-slate-200">
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
-                            <i class="fa-solid fa-javascript"></i>
+                            <i class="fa-brands fa-js fa-lg" style="color: #ecc813;"></i> JavaScript
                         </td>           
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Laravel</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-brands fa-laravel fa-lg" style="color: #df2d20;"></i> Laravel</td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">MySQL</td>
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">GIT</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-brands fa-git-alt fa-lg" style="color: #ec1313;"></i> GIT</td>
                     </tr>
                     <tr>
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">PHP</td>
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Bootstrap</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-brands fa-php fa-lg" style="color: #4b7fd8;"></i> PHP</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-brands fa-bootstrap fa-lg" style="color: #155cd5;"></i> Bootstrap</td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">SQL Server</td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">AJAX</td>
                     </tr>
                     <tr class="border-t border-solid border-slate-200">
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Python</td>
-                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">TailwindCSS</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">
+                            <i class="fa-brands fa-python fa-lg" style="color: #165ad0;"></i> Python</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">Tailwind CSS</td>
                     </tr>
                     <tr class="border-t border-solid border-slate-200">
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"></td>
                         <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm">JQuery</td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"></td>
+                        <td class="border-r border-solid border-white pl-4 pr-8 py-4 font-semibold text-sm"></td>
                     </tr>
                 </tbody>
             </table>
