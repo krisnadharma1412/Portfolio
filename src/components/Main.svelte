@@ -3,7 +3,8 @@
     let steps = [
         {name: 'Maintenance Activity Monitoring Website', icon: 'fa-solid fa-chart-pie'},
         {name: 'Metatah Event Invitation', icon: 'fa-solid fa-envelope'},
-        {name: 'CLI MyAnimeList', icon: 'fa-solid fa-list'}
+        {name: 'CLI MyAnimeList', icon: 'fa-solid fa-list'},
+        {name: 'Recipe App', icon: 'fa-solid fa-utensils'},
     ]
 
     let benefits = [
@@ -82,7 +83,7 @@
             <Step step={steps[1]}>
                 <p>This is an online invitation website i developed for my sister's and my metatah event.
                     Metatah/Mepandes ceremony in Bali is a significant cultural and religious event that signifies the transition from childhood to adolescence and the deeper commitment to the Balinese Hindu faith. 
-                    Created with <strong class="text-violet-400">HTML, CSS, Bootstrap, and Javascript</strong>
+                    Created with <strong class="text-violet-400">HTML, CSS, Bootstrap, and Javascript.</strong>
                 </p>
                 <img src="images/metatah.png" alt="metatah invitation img">
                 <div class="flex-1 flex justify-between gap-4 items-center">
@@ -97,12 +98,34 @@
             <Step step={steps[2]}>
                 <p>CLI MyAnimeList is a program where you can create a list of anime that you want to watch just like in https://myanimelist.net/ website,
                     and create a Tier List of anime from S tier to E tier in PNG image from your list.
-                    Created with <strong class="text-violet-400">Python, Jikan REST API, JSON</strong>
+                    Created with <strong class="text-violet-400">Python, Jikan REST API, JSON.</strong>
                 </p>
                 <img src="images/myanimelist.png" alt="cli myanimelist img">
                 <div class="flex-1 flex justify-between gap-4 items-center">
                     <div class={btn_style}>
                         <a href='https://github.com/krisnadharma1412/MyAnimeList-in-Python-CLI' target="_blank" class="relative z-4"><i class="fa-solid fa-code"></i> Repository</a>
+                    </div>
+                </div>
+            </Step>
+            <Step step={steps[3]}>
+                <p>
+                    Recipe app is an application that allows users to view, add, and manage their favorite recipes.
+                    Created with 
+                    <span class="text-violet-400">React</span> as the frontend, 
+                    <span class="text-violet-400">Node.js</span>  as the backend, 
+                    <span class="text-violet-400">Spoonacular API </span>to get the recipes data, 
+                    <span class="text-violet-400">Postgre SQL </span>using 
+                    <span class="text-violet-400">ElephantSQL </span>services, and tools like 
+                    <span class="text-violet-400">Prisma and Express</span>.
+                  </p>
+                  
+                <img src="images/recipe.png" alt="cli myanimelist img">
+                <div class="flex-1 flex justify-between gap-4 items-center">
+                    <div class={btn_style}>
+                        <a href='https://github.com/krisnadharma1412/recipe-web' target="_blank" class="relative z-4"><i class="fa-solid fa-code"></i> Repository</a>
+                    </div>
+                    <div class={btn_style}>
+                        <a href='https://krisna-recipe.vercel.app/' target="_blank" class="relative z-4"><i class="fa-solid fa-desktop"></i> Demo</a>
                     </div>
                 </div>
             </Step>
